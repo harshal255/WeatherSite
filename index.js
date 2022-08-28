@@ -53,6 +53,8 @@ const showWeather = (data) => {
         id="fail" data-aos="zoom-in">Please Enter a Valid City
         Name</label>`;
 
+        Weatherdetail.innerHTML = ``
+
     }
     else {
         Lable.innerHTML = ` `;
